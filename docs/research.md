@@ -2,6 +2,8 @@
 
 Grounded in your collected research in `research/final-research.txt` and your two briefs, this document makes a precise recommendation, explains the “why” in business and technical terms, outlines the delivery plan for a single full‑stack specialist, provides time and cost, and anticipates stakeholder questions with an FAQ.
 
+Source research notes: [final-research.txt](assets/final-research.txt)
+
 ## Executive Summary
 - Recommendation: Start MVP Phase 1 on WordPress using the Homey theme.
 - Why: Homey gives the fastest time‑to‑market with the highest MVP feature coverage (villa directory, half‑map search, sticky booking box, instant/inquiry booking modes, Elementor widgets), while keeping Stripe + 365Villas in place with minimal glue code. It is affordable, stable, and Elementor‑friendly for rapid iteration.

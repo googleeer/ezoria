@@ -1,0 +1,90 @@
+Stakeholder-ready research document: research/ezoria-mvp-research.md
+
+Short-List of Five Affordable WordPress Themes that Fit Ezoria’s MVP
+
+After mapping Ezoria’s “MVP + Optional” requirements to the current vacation-rental theme market, the following five themes stand out as the best balance of price, feature coverage, reliability and future-proofing. Each costs under $90 for a regular ThemeForest or vendor licence, supports Elementor or Gutenberg (so the team can build custom blocks later), and can inherit your existing 365Villas API data via standard custom-post-type hooks or WooCommerce bookings.
+
+1. Homey – Booking & Rentals WordPress Theme  (≈ $69)
+
+Homey is purpose-built for multi-property vacation rentals and already ships with villa directories, live filters, half-map search, sticky price widgets and instant-booking flows. Its Elementor widgets make it easy to recreate Ezoria’s planned “Featured Villas”, “Collections” and map pins. Stripe and multi-currency checkout ride on WooCommerce, so you can keep the current Stripe workflow that passes through 365Villas. The theme includes iCal sync out of the box; mapping that feed to the 365Villas API usually takes one afternoon of custom code. ​⁠https://themeforest.net/item/homey-booking-wordpress-theme/23338013?srsltid=AfmBOoroBommTYRUGyRUanNSwsXOwjKZnwH271xkh1WR1fSUn0zQOhrg ​⁠https://gethomey.io/
+ • Why it matches the brief: Villa grid, quick-view gallery, collection taxonomy, per-property FAQs, favourites without login, Elementor schedule-a-call block.
+ • Caveats: Front-end host dashboard can be hidden but still loads CSS; minor cleanup may be needed for performance scores.
+
+2. WP Rentals – Booking Accommodation WordPress Theme  (≈ $69)
+
+WP Rentals has the most granular pricing engine on the list (week-end vs seasonal, deposit %, pay-only-X-today) and lets you toggle “inquiry-first” versus “instant book” per listing, mirroring Ezoria’s two booking modes. It natively supports Twilio SMS, coupon codes and multi-currency; all are optional in the MVP but ready when Ezoria turns on membership perks. Elementor search-builder widgets let you reproduce the MVP’s destination/date/guest bar in minutes. ​⁠https://wprentals.org/ ​⁠https://themeforest.net/item/wp-rentals-booking-accommodation-wordpress-theme/12921802?srsltid=AfmBOopdiR3gVsGSZVolzSLJUqQwiB8A-JwMwCEKlGziI9MTNmkLk7K0
+ • Why it matches the brief: Half-map and grid result pages, sticky booking box, property comparison, RTL and GDPR tools.
+ • Caveats: Visual style leans “portal”; expect 6-8 hours of design tweaks to reach Ezoria’s premium tone.
+
+3. Villoz – Villa & Holidays Rental Theme  (≈ $59)
+
+Villoz ships with three modern demo homes that already resemble the mood-board screenshots Ezoria referenced. The theme is lighter than the “big engines” above, which means faster Core Web Vitals out of the box—a key SEO win. It relies on Elementor and WooCommerce for bookings, so your Stripe + PMS hook-up remains intact. Built-in mega-menu and header/footer builders will let you surface the “Schedule a Call” CTA everywhere without extra plugins. ​⁠https://themeforest.net/item/villoz-villa-holidays-rental-wordpress-theme/49185447?srsltid=AfmBOoqpvv_-WM5JY_1oZy7njZ_i3a_7eFGOI2T6w1EWPFZosRxQuhha
+ • Why it matches the brief: Clean hero search, collection sections, testimonial sliders, property highlights, FAQs accordion on each listing.
+ • Caveats: No native wish-list; use a light cookie-based add-on to meet the MVP requirement.
+
+4. Booklium by MotoPress  (≈ $89)
+
+Booklium bundles the MotoPress Hotel Booking plugin (value $99) in the licence, giving you a powerful channel manager, OTA iCal sync, discount coupons and a Gutenberg-ready block library. Multi-currency and PDF-invoice extensions are available if Ezoria chooses to upsell later. Because MotoPress offers documented REST hooks, connecting to 365Villas is straightforward. Booklium’s “Vacation Rental” demo already divides inventory by destination and collection, cutting initial setup time. ​⁠https://motopress.com/products/booklium/?srsltid=AfmBOop_11tVKIpZ2-jnsZ47lNuehS5iqp8pRGPuA_YM73KnG-SKqa8Y
+ • Why it matches the brief: Season-based pricing, hand-picked collection pages, sticky booking panel, owner landing template.
+ • Caveats: Front-end dashboards are plugin-driven and less pretty; consider hiding them until the future Owner Portal phase.
+
+5. Houzez – Real-Estate WordPress Theme  (≈ $69)
+
+Although marketed to real-estate agencies, Houzez has evolved into a fully-fledged rental stack with Elementor search-builder, saved searches, email alerts, currency switcher, and a CRM module—useful when Ezoria later introduces the B2B Owner funnel. Instant-booking requires pairing with a bookings plugin (WooCommerce Bookings or MotoPress), but structure, map clustering and comparison grids are production-ready. ​⁠https://themeforest.net/item/houzez-real-estate-wordpress-theme/15752549?srsltid=AfmBOopzPg1wL-Cr5eO3tmd4nneEMPgUj3lfAHQvcaLcV7VyJFbGRX4l ​⁠https://houzez.co/real-estate-wordpress-theme/
+ • Why it matches the brief: Map-first search option, flexible property layout manager, verified-listing badge, easily configurable “Schedule Tour” form that can be repurposed as “Schedule a Call”.
+ • Caveats: Slight learning curve for the back-office CRM; disable unused modules to keep the admin clean.
+
+How to Choose Among the Five
+ 1. If Ezoria wants the fastest turnkey launch, pick Homey; most MVP blocks import in one click.
+ 2. If granular pricing logic and SMS alerts are critical, WP Rentals is the best core engine.
+ 3. If page-speed and a sleek Mediterranean aesthetic outweigh heavy features, go Villoz.
+ 4. If you value a bundled channel-manager and Gutenberg editing, Booklium offers the most plugin value.
+ 5. If the roadmap prioritises an eventual owner CRM and lead-gen automations, Houzez future-proofs that path.
+
+Every theme above is GPL-licensed, translation-ready for English now and Greek or German later, and Elementor-compatible so your design team can iterate without touching code.
+
+======
+
+
+Moving Beyond WordPress: 5 Laravel & Node-Based Starters That Match Ezoria’s MVP
+
+The search focused on ready-made or near-ready booking platforms written in Laravel or Node/MERN so your team can preserve the 365Villas API logic yet move away from WordPress. Each candidate below already ships with multi-property directories, date pickers, live search and Stripe / WooCommerce-free payment flows, making them realistic substitutes for the WordPress themes we shortlisted earlier.
+
+1. BookingCore (Laravel, commercial)
+
+Built specifically for travel marketplaces, BookingCore offers villa, hotel and tour modules, half-map search, instant- vs inquiry-booking, dynamic pricing, coupon codes, multi-currency, vendor dashboards and Twilio SMS. Version 4.0 runs on Laravel 12 (PHP 8.2) and introduces a headless-friendly folder structure that keeps core files outside ‎⁠public_html⁠. Regular licence ≈ $79. ​⁠https://codecanyon.net/item/booking-core-ultimate-booking-system/24043972?srsltid=AfmBOoolgvb8iZRMZk5mH7GbGXo03OI7wPIheHKM01hEiU9RINanrWJm
+
+Why it fits Ezoria: all your MVP blocks exist out-of-the-box (featured villas, collections, map pins, Stripe checkout, owner landing pages). Its REST API can replace today’s WordPress+PMS handshake with far fewer plugins.
+
+2. Vacation Rental Script (Laravel, commercial)
+
+Migrateshop’s Airbnb-style script targets villa marketplaces and already includes host dashboards, iCal sync, weekend/seasonal pricing, cleaning fees, location-based search and Stripe + PayPal. It’s lighter than BookingCore, which means speed gains, yet keeps core UX (wishlist, messaging, reviews) intact. ​⁠Migrateshop (https://migrateshop.com/vacation-rental-script/)
+
+Why it fits Ezoria: lean build for ~100 properties, instant book vs request, multilingual and multi-currency toggles, and built-in “collections” blocks match your MVP taxonomy.
+
+3. MERN Airbnb Clone (open-source)
+
+This GitHub project delivers a React/Vite front-end with an Express/MongoDB API, JWT auth, image uploads (Cloudinary), wish-lists and date-based availability. Because it’s MIT-licensed, you can graft the 365Villas API onto the Node backend without licensing costs, then deploy to Vercel or DigitalOcean. ​⁠https://github.com/Mehulparekh144/AirBNB-Clone-using-MERN-Stack
+
+Why it fits Ezoria: modern SPA performance, server-side rendering options, and unrestricted code access for deep customisations like “schedule a call” modals or owner-side revenue reports.
+
+4. Strapi CMS + Nuxt/Next Starter (Node, MIT)
+
+Strapi v5 gives you a GUI to model “Villa”, “Destination”, “Collection” and “Offer” content types, auto-generates a REST/GraphQL API, and ships with role-based permissions and upload/media libraries. Pair it with a Next.js or Nuxt front-end for the search-results grid, sticky booking widget and half-map pages. Tutorials and starter repos already walk through hotel booking flows, email notifications and Stripe hooks. ​⁠https://strapi.io/blog/building-a-booking-system-with-strapi-and-nuxt
+
+Why it fits Ezoria: headless flexibility, no per-site fees, instant multilingual support, and the freedom to host API and front-end separately for blazing Core Web Vitals.
+
+5. Node Hotel-Booking Starter (open-source)
+
+Community projects such as the Hotel-Booking-NodeJS and NextJS Hotel Booking repositories provide Express or Next.js backends wired to MongoDB, guest accounts, date-driven room availability and basic Stripe payment routes. While not as full-featured as BookingCore, they’re a solid scaffold if you prefer to own every line of the stack. ​⁠https://www.geeksforgeeks.org/node-js/hotel-booking-system-using-node-js-and-mongodb/
+
+Why it fits Ezoria: quickest path to a bespoke TypeScript/React codebase, perfect for a tech-enabled brand that wants granular control over performance, SEO and CI/CD.
+
+Choosing the Right Path
+
+• Fastest commercial launch: BookingCore—minimal coding, full feature parity with your WordPress stack.
+• Lightweight & budget-friendly: Vacation Rental Script—fewer features but excellent page-speed scores.
+• Full OSS freedom: MERN clone or Strapi—own the code, no vendor lock-in, tailor everything.
+• Future micro-service vision: Strapi headless API with a Next.js front-end covers multilingual, PWA and app ambitions in one shot.
+
+All five options can ingest or export iCal feeds and expose REST hooks, so relinking 365Villas will be primarily a data-mapping exercise rather than a ground-up rewrite.

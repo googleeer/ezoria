@@ -3,7 +3,9 @@ site_description: Stakeholder-ready MVP research, plan, and slides
 site_url: https://googleeer.github.io/ezoria/
 nav:
   - Home: index.md
-  - Research: research.md
+  - Research:
+      - Overview: research.md
+      - Full Research Notes: research-full.md
   - Slides: slides.md
 theme:
   name: material

@@ -2,7 +2,7 @@
 
 Grounded in your collected research in `research/final-research.txt` and your two briefs, this document makes a precise recommendation, explains the “why” in business and technical terms, outlines the delivery plan for a single full‑stack specialist, provides time and cost, and anticipates stakeholder questions with an FAQ.
 
-Source research notes: [final-research.txt](assets/final-research.txt)
+Full research notes: [Read the full research](research-full.md)
 
 ## Executive Summary
 - Recommendation: Start MVP Phase 1 on WordPress using the Homey theme.
